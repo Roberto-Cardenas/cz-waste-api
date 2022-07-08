@@ -15,7 +15,7 @@
   // Authenticate information
   if ($user == $authObject['user'] && password_verify($pass, $authObject['passphraseHash'])) {
     // Create token for this login
-    $token = hash("sha512", date('Y-m-d H:i:s') . random_bytes(32));
+    $token = bin2hex(random_bytes(32));
     $authObject['tokenHash'] = hash("sha512", $token);
 
     // Save information to disk
