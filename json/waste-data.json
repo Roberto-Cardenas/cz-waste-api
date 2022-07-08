@@ -1,0 +1,288 @@
+{
+    "data": [
+        {
+            "name": "Compost 🍆 🍑 💩",
+            "id": "0",
+            "description": "Green bins in kitchen\/common room. Bathroom bins should have no food scraps in them. ALSO FOR THE LOVE OF GOD NO ANIMAL FECES THANK YOU. ALSO NO SOY MILK, BROTH, OATMILK, TETRAPAK CONTAINERS THOSE ARE LANDFILL.",
+            "entries": [
+                {
+                    "id": "0",
+                    "name": "Food scraps including meat, dairy, bones"
+                },
+                {
+                    "id": "1",
+                    "name": "Paper towels"
+                },
+                {
+                    "id": "2",
+                    "name": "Food soiled paper\/cardboard"
+                },
+                {
+                    "id": "3",
+                    "name": "Plant debris"
+                },
+                {
+                    "id": "4",
+                    "name": "Napkins, and tissue paper (toilet paper wrapper)"
+                },
+                {
+                    "id": "5",
+                    "name": "Compostable plastic bags"
+                },
+                {
+                    "id": "6",
+                    "name": "Waxed cardboard"
+                },
+                {
+                    "id": "7",
+                    "name": "Al cotton tampons, al cotton pads (no plastic liners)"
+                },
+                {
+                    "id": "8",
+                    "name": "Pizza boxes"
+                },
+                {
+                    "id": "9",
+                    "name": "Corks"
+                }
+            ],
+            "titleCardColor": "#219653",
+            "itemsListColor": "#27AE60"
+        },
+        {
+            "id": "1",
+            "name": "Cooking Oil 🍳 🍟",
+            "description": "Buckets located underneath the handwashing sink in the kitchen, next to the griddle. Dump any used cooking oil into the bucket.",
+            "titleCardColor": "#b8630c",
+            "itemsListColor": "#d77c23",
+            "entries": [
+                {
+                    "id": "0",
+                    "name": "Olive oil"
+                },
+                {
+                    "id": "1",
+                    "name": "Vegetable oil"
+                },
+                {
+                    "id": "2",
+                    "name": "Canola oil"
+                },
+                {
+                    "id": "3",
+                    "name": "Bacon grease"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Plastic\/Aluminum\/Glass  ♻ 🍾 ",
+            "description": "Blue bins in kitchen\/common room and bathrooms. Wash all containers before putting them inside the bins.",
+            "titleCardColor": "#3168ee",
+            "itemsListColor": "#3689d6",
+            "entries": [
+                {
+                    "id": "0",
+                    "name": "Plastic bottles and rigid plastics (Type #1, #2, #5)"
+                },
+                {
+                    "id": "1",
+                    "name": "Aluminum cans"
+                },
+                {
+                    "id": "2",
+                    "name": "Red solo cups"
+                },
+                {
+                    "id": "3",
+                    "name": "Yogurt containers"
+                },
+                {
+                    "id": "4",
+                    "name": "Glass bottles (caps are okay)"
+                },
+                {
+                    "id": "5",
+                    "name": "All cans (plz wash)"
+                },
+                {
+                    "id": "6",
+                    "name": "Tin foil is still clean"
+                },
+                {
+                    "id": "7",
+                    "name": "NO BROKEN GLASS"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Paper\/Cardboard  ♻️ 📚 📦",
+            "description": "Yellow bins located in mail area, study room, and common room. For large cardboard boxes break them down and then place in the big orange cart located in the common room next to the elevator. Can also use the big paper\/cardboard dumpster located in front of CFS on level L (Take the elevator and go to level L).",
+            "titleCardColor": "#e59f00",
+            "itemsListColor": "#e9bf2d",
+            "entries": [
+                {
+                    "id": "0",
+                    "name": "All paper"
+                },
+                {
+                    "id": "1",
+                    "name": "Cardboard boxes"
+                },
+                {
+                    "id": "2",
+                    "name": "Brown paper bags"
+                },
+                {
+                    "id": "3",
+                    "name": "Newspaper"
+                },
+                {
+                    "id": "4",
+                    "name": "Any kind of mixed paper that is NOT food soiled"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Special Recycling  🦄 🌈 ✨",
+            "description": "Mail bins located in the 200’s corridor. For specific instructions on certain special recycling items see other panels.",
+            "titleCardColor": "#8334de",
+            "itemsListColor": "#a550d4",
+            "entries": [
+                {
+                    "id": "0",
+                    "name": "Clothes\/Fabrics"
+                },
+                {
+                    "id": "1",
+                    "name": "Batteries"
+                },
+                {
+                    "id": "2",
+                    "name": "Busted electronics"
+                },
+                {
+                    "id": "3",
+                    "name": "Scrap metal"
+                },
+                {
+                    "id": "4",
+                    "name": "Hangers"
+                },
+                {
+                    "id": "5",
+                    "name": "Large blocks of white styrofoam"
+                },
+                {
+                    "id": "6",
+                    "name": "Sharps"
+                },
+                {
+                    "id": "7",
+                    "name": "Packing peanuts"
+                },
+                {
+                    "id": "8",
+                    "name": "Flourescent lightbulbs"
+                },
+                {
+                    "id": "9",
+                    "name": "Hazardous Waste"
+                },
+                {
+                    "id": "10",
+                    "name": "Whippits"
+                },
+                {
+                    "id": "11",
+                    "name": "Broken glass"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Hazardous waste 💀",
+            "description": "Located in special recycling, has its own category because i think it would be more clear to list out everything that entails it here.",
+            "titleCardColor": "#297f55",
+            "itemsListColor": "#38be76",
+            "entries": [
+                {
+                    "id": "0",
+                    "name": "Wet paint (Dry paint is landfill)"
+                },
+                {
+                    "id": "1",
+                    "name": "Aerosols (if the can still has aerosol)"
+                },
+                {
+                    "id": "2",
+                    "name": "Pharmaceuticals"
+                },
+                {
+                    "id": "3",
+                    "name": "Weird chemicals (aka Eric Weiss's shit)"
+                },
+                {
+                    "id": "4",
+                    "name": "Solvents"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Broken Glass 🔮 💡",
+            "description": "Cardboard box located in special recycling. If you notice there is no box please get a new one and place in special recycling before dumping your broken glass. If you have a broken bong you can also place in the bong graveyard located on a windowsill in the 10s staircase. If youre feeling generous you can take the box down to the dumpster in front of CFS and dump it urself (Make sure to tape it up before dumping so no dangerous glass gets out).",
+            "titleCardColor": "#576e78",
+            "itemsListColor": "#7c9caa",
+            "entries": [
+                {
+                    "id": "0",
+                    "name": "Broken bongs"
+                },
+                {
+                    "id": "1",
+                    "name": "Broken lightbulbs"
+                },
+                {
+                    "id": "2",
+                    "name": "Broken bottles"
+                },
+                {
+                    "id": "3",
+                    "name": "Broken hopes and dreams"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Landfill  ❌ 🗑️",
+            "description": "Black round bins located in the kitchen\/common room and bathrooms. Member trash should be taken to the brown dumpster located in front of CFS on level L (Take the elevator and go to level L).",
+            "titleCardColor": "#262626",
+            "itemsListColor": "#3e3e3e",
+            "entries": [
+                {
+                    "id": "0",
+                    "name": "Anything that canot be recycled by the city or put in special recycling"
+                },
+                {
+                    "id": "1",
+                    "name": "Potato chip bags"
+                },
+                {
+                    "id": "2",
+                    "name": "Soft plastics"
+                },
+                {
+                    "id": "3",
+                    "name": "Candy wrappers"
+                },
+                {
+                    "id": "4",
+                    "name": "Broken ceramics"
+                }
+            ]
+        }
+    ]
+}
