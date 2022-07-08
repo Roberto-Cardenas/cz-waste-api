@@ -1,3 +1,5 @@
 {
-  "require": {}
+  "require": {
+    "lezhnev74/pasvl": "^1.0"
+  }
 }
