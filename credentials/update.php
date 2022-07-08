@@ -22,12 +22,12 @@
   // Authenticate information
   if ($allow_update
       && $oldUsername == $authObject['user'] 
-      && password_verify($oldPass, $authObject['passphrase_hash'])
-      && $token = $authObject['token']) {
+      && password_verify($oldPass, $authObject['passphraseHash'])
+      && hash("sha512", $token) == $authObject['tokenHash']) {
 
     // Update the user credentials in the auth object
     $authObject['user'] = $newUsername;
-    $authObject['passphrase_hash'] = password_hash($newPass, PASSWORD_DEFAULT); 
+    $authObject['passphraseHash'] = password_hash($newPass, PASSWORD_DEFAULT); 
 
     // Save information to disk
     $file = fopen("../json/auth-data.json", "w") or die("No write permissions");

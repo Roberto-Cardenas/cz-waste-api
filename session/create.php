@@ -13,9 +13,10 @@
   $authObject = json_decode(file_get_contents("../json/auth-data.json"), true);
 
   // Authenticate information
-  if ($user == $authObject['user'] && password_verify($pass, $authObject['passphrase_hash'])) {
+  if ($user == $authObject['user'] && password_verify($pass, $authObject['passphraseHash'])) {
     // Create token for this login
-    $authObject['token'] = hash("sha512", date('Y-m-d H:i:s') . random_bytes(32));
+    $token = hash("sha512", date('Y-m-d H:i:s') . random_bytes(32));
+    $authObject['tokenHash'] = hash("sha512", $token);
 
     // Save information to disk
     $file = fopen("../json/auth-data.json", "w") or die("No write permissions");
@@ -25,7 +26,7 @@
     // Print response body
     print_r(json_encode(array(
       'ok' => 1,
-      'token' => $authObject['token']
+      'token' => $token
     )));
   } else {
     // Print response body

@@ -14,7 +14,7 @@
   $authObject = json_decode(file_get_contents("../json/auth-data.json"), true);
 
   // Authenticate token
-  if ($token == $authObject['token']) {
+  if (hash("sha512", $token) == $authObject['tokenHash']) {
     // Save information to disk
     $file = fopen("../json/waste-data.json", "w") or die("No write permissions");
     fwrite($file, json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
