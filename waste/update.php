@@ -31,7 +31,7 @@
               "name" => ":string"
             ],
           ],
-          "titleCardColor" => ":number",
+          "titleCardColor" => ":string",
           "itemsListColor" => ":string"
         ],
       ],
