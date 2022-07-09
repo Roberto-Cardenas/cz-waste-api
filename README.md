@@ -1,5 +1,5 @@
 # cz-waste-api #
-REST API for the Casa Zimbabwe Waste Information Website
+REST API for the Casa Zimbabwe Waste Information Website and its Administrator Client
 
 Demo Server: https://cz-waste-api.herokuapp.com/
 
