@@ -31,8 +31,8 @@
               "name" => ":string"
             ],
           ],
-          "titleCardColor" => ":string",
-          "itemsListColor" => ":string"
+          "titleCardColor" => ":string :regexp('#\#[a-zA-Z0-9]{6}#')",
+          "itemsListColor" => ":string :regexp('#\#[a-zA-Z0-9]{6}#')"
         ],
       ],
     ];
